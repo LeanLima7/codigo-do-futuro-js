@@ -1,0 +1,22 @@
+<!--
+Exercício4
+
+Roberto é reitor da faculdade São Judas, ele precisa de um software para caucular a media de um aluno e verificar se o aluno está aprovado ou reprovado.
+-->
+<script>
+nome = prompt("Digite o nome do aluno")
+
+nota1 = parseFloat(prompt("digite o valor da nota1: "))
+nota2 = parseFloat(prompt("digite o valor da nota2: "))
+nota3 = parseFloat(prompt("digite o valor da nota3: "))
+nota4 = parseFloat(prompt("digite o valor da nota4: "))
+
+media = (nota1+nota2+nota3+nota4)/4
+
+if (media >= 5) {
+   alert("O aluno(a) " + nome + " foi aprovado com a média " + media + " .")
+} else {
+   alert("Infelizmente o aluno " + nome + "foi reprovado com media " + media + " .")
+}
+</script>
+
