@@ -1,0 +1,35 @@
+<!--
+Exercício2
+__________________________________________
+João Roberto é dono de um armazém que vende produtos de limpeza.
+Ele precisa de um programa que solicite os valores do almejante, sabao em po e sabonete.
+
+Faça um programa que solicite o nome do cliente e no final do programa mostre o valor total da compra feita por esse cliente.
+O valor total é a soma das vairáves listada acima.
+
+Exemplo: Olá (nome), o valor de sua compra é de (valorfinal);
+
+_____________________________
+Resposta
+_____________________________
+-->
+
+<script>
+
+alert("Qual é seu nome?")
+nome = prompt()
+
+alert("Qual valor do alvejante?")
+alve = prompt()
+
+alert("Qual valor do sabao Em Po?")
+sabao = prompt()
+
+alert("Qual valor do sabonete?")
+sabon = prompt()
+
+valorfinal = parseFloat(alve)+parseFloat(sabao)+parseFloat(sabon)
+
+
+alert("Olá " + nome + ", o valor de sua compra é de " + valorfinal)
+</script>
